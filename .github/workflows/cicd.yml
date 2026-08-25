@@ -14,7 +14,7 @@ permissions:
   contents: read
 
 env:
-  TF_WORKING_DIR: Practice19072026/dev
+  TF_WORKING_DIR: Pratice19072026/dev
 
   ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
   ARM_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
