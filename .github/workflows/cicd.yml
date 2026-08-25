@@ -40,9 +40,7 @@ jobs:
               "tenantId": "${{ secrets.AZURE_TENANT_ID }}"
             }
 
-      # 3. Verify Azure Login
-      - name: Check Azure Account
-        run: az account show
+     
 
       # 4. Setup Terraform
       - name: Setup Terraform
